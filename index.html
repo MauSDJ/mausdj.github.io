@@ -10,7 +10,6 @@
             }
             body {
                 background-color:rgb(218, 237, 232);
-                text-align: center;
             }
             h2 {
                 font-style:italic;
@@ -28,30 +27,41 @@
             .social_media_icon {
                 border-radius: 50%;
             }
+            #container {
+                width: 500px;
+                margin: auto;
+                text-align:center;
+            }
+            .list-elements {
+                width: max-content;
+                text-align: start;
+                margin:auto;
+            }
         </style>
     </head>
     <body>
-        <a href="#foto">foto</a> | <a href="#sobre">sobre</a> | <a href="#habilidades">habilidades</a> | <a href="#redes_sociais">me ache</a> | <a href="#hobby">hobby</a>
+       <div id="container"><a href="#foto">foto</a> | <a href="#sobre">sobre</a> | <a href="#habilidades">habilidades</a> | <a href="#redes_sociais">me ache</a> | <a href="#hobby">hobby</a>
         <h1 > Maurício Silva d'Ávila Júnior</h1>
         <img id="foto" src="images/foto_mau.jpg" alt="Maurício no topo da Sydney Tower" width="350px">
         <p class="photo_description"><em>Foto tirada na Sydney Tower em Sydney na Austrália.</em></p>
         <h2 id="sobre">Sobre mim</h2>
         <p>Brasileiro e manezinho da ilha morando em Florianópolis/SC.</p>
         <h2 id="habilidades">Habilidades</h2>
+        <div class="list-elements">
         <ul>
             <li>Formado em Administração de Empresas</li>
             <li>Experiência em vendas</li>
             <li>Experiência em atendimento ao cliente</li>
             <li><strong>Desenvolvimento Web Front-End (ramo atual)</strong></li>
-        </ul>
+        </ul></div>
         <h2 id="redes_sociais">Onde Estou?</h2>  
-            <a target="_blank" href="https://www.linkedin.com/in/maur%C3%ADcio-d-%C3%A1vila-b62497103/"><img class="social_media_icon" src="images/linkedin-icon.png" alt="linkedin icon" width="25px">Linkedin</a><br>
+           <div class="list-elements"><a target="_blank" href="https://www.linkedin.com/in/maur%C3%ADcio-d-%C3%A1vila-b62497103/"><img class="social_media_icon" src="images/linkedin-icon.png" alt="linkedin icon" width="25px">Linkedin</a><br>
             <a target="_blank" href="https://github.com/MauSDJ"><img class="socialme_dia_icon" src="images/github-icon.png" alt="github icon" width="25px">Github</a><br>
             <a target="_blank" href="https://www.instagram.com/mau_sdj/"><img class="social_media_icon" src="images/instagram-icon.png" alt="instagram icon" width="25px">Instagram</a><br>
-            <a target="_blank" href="https://www.facebook.com/mauricio.davila.35"><img class="social_media_icon" src="images/facebook-icon.png" alt="facebook icon" width="25px">Facebook</a>
+            <a target="_blank" href="https://www.facebook.com/mauricio.davila.35"><img class="social_media_icon" src="images/facebook-icon.png" alt="facebook icon" width="25px">Facebook</a></div>
         <h2 id="hobby">O que amo fazer quando tenho tempo vago? <em>Viajar!</em></h2>
         <a target="_blank" href="https://www.likewanderlust.com/">Blog muito legal sobre viagens!</a>
         <br><br><br>
         <a href="#foto">foto</a> | <a href="#sobre">sobre</a> | <a href="#habilidades">habilidades</a> | <a href="#redes_sociais">me ache</a> | <a href="#hobby">hobby</a>
-    </body>
+    </body></div>
 </html>
